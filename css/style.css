@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:1024px;
+    margin: 0 auto;
+}
+.headerbox{
+    height: 78px;
+    
+}
+.navbox{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.navbox h1{
+    color:#008BED;
+    font-size: 40px;
+    line-height: 40px;
+}
+.nav div{
+    display: flex;
+    justify-content: space-between;
+    width:240px;
+}
+.navright>a{
+    width:120px;
+    height:32px;
+    color: #0099f2;
+    background-color: #f0f9ff;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #008BED;
+}
+.content{
+    /*display: flex;*/
+    align-self:center;
+}
+.content h2{
+    font-size: 40px;
+    line-height: 40px;
+    color:#fdfdfd;
+}
+.info{
+    font-size: 12px;
+    color:#99d1f8;
+}
+.tabtitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    width:960px;
+}
+.tabtitle h3{
+    color:#000000;
+    font-size:24px;
+    
+}
+.tabtitle h4{
+    color:#cccccc;
+    font-size: 24px;
+}
+.list ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list li{
+    width:300px;
+    height:374px;
+    margin: 15px 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.list img{
+    width:260px;
+    height:260px;
+}
+.list a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#333333;
+}
+.more{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e8eef2;
+    
+}
+.more a{
+    text-decoration: none;
+    line-height: 62px;
+    font-size: 20px;
+    
+    color:#59abdf;
+    
+}
+.footerBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:265px;
+    background-color: #e5e5e5;
+    margin-top: 30px;
+}
+.footerL{
+    width:710px;
+    height:210px;
+}
+.footerL p{
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 15px;
+    color:#000000;
+}
+.footerR img{
+    height:152px;
+    width:141px;
+}
+.footerR p{
+    text-align: center;
+}
